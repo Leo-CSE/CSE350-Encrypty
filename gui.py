@@ -41,11 +41,11 @@ class GUI(QMainWindow):
         message_label = QLabel("Select a file and choose an action:")
 
         # Set font style and size
-        font = QFont("Roboto", 12, QFont.Bold)  # Example: Arial, 12pt, bold
+        font = QFont("Roboto", 12, QFont.Bold)
         message_label.setFont(font)
 
-        # Adjust text color and alignment using style sheets
-        message_label.setStyleSheet("color: #333333;")  # Example: blue text color
+        # LH: Adjust text color and alignment using style sheets
+        message_label.setStyleSheet("color: #333333;")  # Text color
         message_label.setAlignment(Qt.AlignCenter)  # Center align the text
 
         # LH: Add margins
